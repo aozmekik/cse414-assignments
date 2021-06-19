@@ -1,0 +1,12 @@
+<nb-card>
+  <nb-card-header>
+    Aile Listesi
+  </nb-card-header>
+
+  <!-- <nb-card-body nbSpinnerStatus="primary" nbSpinnerSize="large" [nbSpinner]="!isLoaded()"> -->
+  <nb-card-body>
+    <ng2-smart-table *ngIf="isLoaded()" [settings]="settings" [source]="source" (delete)="onDelete($event)"
+      (create)="onCreate()" (userRowSelect)="onSelect($event)" (edit)="onEdit($event)">
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>

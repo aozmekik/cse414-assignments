@@ -1,0 +1,49 @@
+.button {
+  text-align: center;
+
+  button {
+    cursor: pointer;
+    margin: 0.5rem ;
+  }
+}
+
+// * {
+//   outline: 0.1em solid red;
+// }
+
+li {
+  margin-top: 0.5em;
+}
+
+.remove-button {
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+
+.form-label {
+  margin: auto;
+}
+
+.image-container {
+  margin: 2em;
+  position: relative;
+
+  img {
+    border-radius: 5%;
+  }
+
+  button {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+}
+
+.image-card {
+  margin-top: 1em;
+}
+
+.bottom-button {
+  margin-left: 2em;
+}
